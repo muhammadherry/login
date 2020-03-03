@@ -17,6 +17,8 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+
+  http: ^0.12.0
   flutter:
     sdk: flutter
 
@@ -41,8 +43,25 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+    - assets/burger1.png
+    - assets/sepatu1.png
+    - assets/food2.png
+    - assets/drink1.png
+    - assets/aku.png
+    - assets/h.png
+    - assets/back.jpg
+    - assets/logotol.png
+    - assets/logotol1.png
+    - assets/1a1.png
+    - assets/1b1.png
+    - assets/1c1.png
+    - assets/facebook.jpg
+    - assets/google.jpg
+    - assets/logo1.png
+    - assets/login1.png
+    - assets/blue.png
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -56,6 +75,14 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+        - asset: assets/fonts/OpenSans.ttf
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/Ubuntu-Regular.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
